@@ -1,0 +1,18 @@
+.App {
+  display: grid;
+  grid-template-columns: 200px auto 300px;
+  overflow: scroll;
+  min-height: 600px;
+}
+
+#number {
+  grid-column: 1 / span 1;
+}
+
+#selection {
+  grid-column: 2 / span 1;
+}
+
+#result {
+  grid-column: 3 / span 1;
+}
